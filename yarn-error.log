@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\php\php7.3.12;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Tilly\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Tilly\AppData\Local\Programs\Python\Python38-32\;C:\Users\Tilly\AppData\Local\Microsoft\WindowsApps;C:\Users\Tilly\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tilly\.android;C:\Users\Tilly\AppData\Local\Yarn\bin;C:\Users\Tilly\AppData\Roaming\Composer\vendor\bin;C:\Users\Tilly\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8;C:\Users\Tilly\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "esm": "^3.2.25",
+      "express": "^4.17.1",
+      "http-errors": "^1.8.0",
+      "joi": "^17.4.0",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.12.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "server": "nodemon -r dotenv/config -r esm server.js",
+      "test": "mocha"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
